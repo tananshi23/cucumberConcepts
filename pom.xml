@@ -10,9 +10,13 @@
   <name>CucumberConcepts</name>
   <url>http://maven.apache.org</url>
 
-  <properties>
-    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-  </properties>
+	<properties>
+	
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<java.version>17</java.version>
+		<maven.compiler.version>3.9.0</maven.compiler.version>
+		<maven.surefire.version>3.1.0</maven.surefire.version>
+	</properties>
 
     <dependencies>
         <!-- https://mvnrepository.com/artifact/org.testng/testng -->

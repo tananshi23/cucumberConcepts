@@ -1,6 +1,6 @@
-Feature: User creates Admin account
+Feature: User want to crate account
 
-  Scenario: Creating Admin account
+  Scenario: Creating a account
     Given user sends a request of "admin" account creation
     When user creates an admin account
     Then user logs into admin account
