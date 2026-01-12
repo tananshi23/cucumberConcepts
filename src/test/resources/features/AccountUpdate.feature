@@ -14,7 +14,11 @@ Feature: User wants to update account
     When user updates an regular account
     Then user logs into regular account with updated details
 
-  Scenario: updates superuser account
-    Given user sends a request of superuser account updation
+  Scenario Outline: updates superuser account
+    Given user sends a request of superuser account updation for "<username>" "<password>"
     When user updates an superuser account
     Then user logs into superuser account with updated details
+    Examples:
+      | username | password |
+      | user1    | pass1    |
+      | user2    | pass2    |

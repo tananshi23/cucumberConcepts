@@ -5,7 +5,7 @@ import io.cucumber.testng.CucumberOptions;
 
 
 @CucumberOptions(
-        features = ".\\src\\test\\resources\\features",
+        features = ".\\src\\test\\resources\\features\\AccountUpdate.feature",
         glue = {"stepDefinitions"},
 //        tags = "@Smoke",
         plugin ={"pretty"}
