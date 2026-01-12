@@ -1,5 +1,6 @@
 Feature: User want to crate account
 
+  @admin
   Scenario: Creating a account
     Given user sends a request of "admin" account creation
     When user creates an admin account

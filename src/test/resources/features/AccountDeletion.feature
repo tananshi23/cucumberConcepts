@@ -1,5 +1,6 @@
 Feature: User want to delete account
 
+  @admin
   Scenario: deleting Admin account
     Given user sends a request of admin account deleteion
     When user deletes an admin account

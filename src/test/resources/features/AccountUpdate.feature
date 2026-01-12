@@ -1,5 +1,6 @@
 Feature: User wants to update account
 
+  @admin
   Scenario: updating Admin account
     Given user sends a request of admin account updation
     When user updates an admin account
