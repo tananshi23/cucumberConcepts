@@ -11,7 +11,8 @@ Feature: User want to crate account
     When user creates an regular account
     Then user logs into regular account
 
-  Scenario: Creating superuser accountss
+
+  Scenario: Creating superuser accounts
     Given user sends a request of "superuser" account creation
     When user creates an superuser account
     Then user logs into superuser account
